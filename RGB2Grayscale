@@ -1,0 +1,5 @@
+%Mengubah RGB image menjadi Grayscale image 
+K = rgb2gray(g);
+figure;imshow(K);
+%figure;imhist(K); %menampilkan histogram image 
+size(K)
